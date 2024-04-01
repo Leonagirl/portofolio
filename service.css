@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #FAA300;;
+    
+}
+.contact-text h2{
+    color: aliceblue;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30PX;
+ }
+.box {
+    display: flex
+    justify-content:center;
+    align-items: center;
+    min-height: 40px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #8bc5fc;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px #8bc5fc;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #8bc5fc;
+}
+.card h5{
+    color: rgb(244, 245, 245);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #e1e9f1;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.card a{
+    background-color: #050607
+    color: #e1e9f1;
+    border: 10px solid white;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 10px;
+
+
+}
+.pra p a:hover{
+    background-color: transparent;
+    border: 2px skyblue;
+    cursor:pointer;
+    
+}
+
+
+
+ 
+
+ .images{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+ }
+
+ .images img{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 3, left 5s;
+ }
+
+ .images:hover .shape{
+    bottom: 5  0px;
+ }
+
+ .images:hover .indah{
+
+    left: 45%;
+ } 
+ .button {
+    display: inline-block;
+    background-color: #d9e9e9; /* Warna latar hijau */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; /* Ruang isi dalam tombol */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px; /* Bentuk sudut */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi saat mouse hover */
+    margin-left: 600px;
+    margin-top: 20px;
+  }
+ 
+  .button:hover {
+    background-color: #8bc5fc; /* Warna latar hijau yang sedikit lebih gelap saat mouse hover */
+  }
